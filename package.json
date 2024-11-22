@@ -1,12 +1,14 @@
 {
-  "name": "resume-parser",
+  "name": "resume-parse-gpt",
   "version": "1.0.0",
   "description": "A package to parse resumes from PDF and DOCX files using OpenAI's API",
   "main": "lib/parseResume.js",
-  "scripts": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/resume-parser.git"
+    "url": "https://github.com/yourusername/resume-parser-gpt.git"
   },
   "keywords": [
     "resume",
@@ -15,14 +17,14 @@
     "DOCX",
     "OpenAI"
   ],
-  "author": "SH",
+  "author": "Your Name",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
-    "fs.promises": "0.0.3",
+    "fs": "^0.0.1-security",
     "mammoth": "^1.4.2",
-    "pdf-parse": "^1.1.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "pdf-parse": "^1.1.1"
   }
 }
